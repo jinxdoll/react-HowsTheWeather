@@ -96,7 +96,7 @@ class App extends Component {
       <div className={classes.AppWrapper}>
         <Header
           color={assetMapping.colors[
-            // Set header color based on weather condition; if error, set color to red
+
             (this.state.error) ? "error" : this.state.weatherDetails.description
           ]}
           onClickHandler={this.tryAgainHandler} />
