@@ -1,0 +1,22 @@
+.ButtonWrapper button {
+    padding: 0;
+    color: #08239e;
+    font-size: 1rem;
+    letter-spacing: +.5px;
+    text-transform: uppercase;
+    border: none;
+    background: none;
+}
+.ButtonWrapper button:hover {
+    cursor: pointer;
+   
+}
+.ButtonWrapper button:active,
+.ButtonWrapper button:focus {
+    outline: none;
+}
+.FormButtonWrapper {
+    position: absolute;
+    top: 3rem;
+    right: 0;
+}
