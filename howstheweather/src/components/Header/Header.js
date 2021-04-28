@@ -4,11 +4,11 @@ import classes from '../Header/Header.module.css';
 import Logo from '../../elements/Logo/Logo';
 
 const header = (props) => {
-    return(
-        <header className={classes.Header} style={{backgroundColor: props.color}}>
-            <Logo colorScheme={'light'} clicked={props.onClickHandler} />
-        </header>
-    ); 
-}
+  return (
+    <header className={classes.Header} style={{ backgroundColor: props.color }}>
+      <Logo colorScheme={'light'} clicked={props.onClickHandler} />
+    </header>
+  );
+};
 
 export default header;
